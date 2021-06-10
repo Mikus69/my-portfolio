@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #132257;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.logo {
+  height: 12rem;
+  width: 12rem;
+  margin-top: 2rem;
+}
+
+.scroll {
+  padding-top: 4rem;
+}

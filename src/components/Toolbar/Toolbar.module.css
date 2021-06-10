@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  padding: 0.5rem;
+}
