@@ -8,14 +8,16 @@ import Work from "../../components/Work/Work";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
-const LandingPage = () => {
+const LandingPage = (props) => {
   return (
     <div>
       <Navbar />
       <div className={classes.mainContainer}>
         <img className={classes.logo} src={logo} alt="Nick_Trzpis_Logo" />
         <h1>Hi! I am Nick</h1>
-        <p>A self-taught junior web developer</p>
+        <p className={classes.intro}>
+          Digital Marketer and a self-taught Junior Web Developer
+        </p>
         <img className={classes.scroll} src={scroll} alt="scroll" />
       </div>
       <What />

@@ -1,6 +1,9 @@
 import React from "react";
 import classes from "./Contact.module.css";
 import Button from "../UI/Button/Button";
+import LinkedIn from "../../images/LinkedIn.svg";
+import Instagram from "../../images/Instagram.svg";
+import Github from "../../images/Github.svg";
 
 const Contact = () => {
   return (
@@ -17,6 +20,11 @@ const Contact = () => {
         <textarea className={classes.messageInput} placeholder="Message" />
       </form>
       <Button>Send</Button>
+      <div className={classes.socialMedia}>
+        <img alt="LinkedIn" src={LinkedIn} className={classes.socialIcons} />
+        <img alt="Instagram" src={Instagram} className={classes.socialIcons} />
+        <img alt="Github" src={Github} className={classes.socialIcons} />
+      </div>
     </div>
   );
 };

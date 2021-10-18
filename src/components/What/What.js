@@ -30,7 +30,10 @@ const What = () => {
         className={classes.slideContainer}
       >
         <SwiperSlide className={classes.slide}>
-          <img src={reactLogo} alt="react_logo" />
+          <div className={classes.insideContainer}>
+            <img src={reactLogo} alt="react_logo" />
+            <div className={classes.slideTitle}>React</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide className={classes.slide}>
           <img src={reactLogo} alt="react_logo" />

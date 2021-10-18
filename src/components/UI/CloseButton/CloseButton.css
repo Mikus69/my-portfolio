@@ -7,6 +7,8 @@
 }
 .close:hover {
   opacity: 1;
+  cursor: pointer;
+  background-color: grey;
 }
 .close:before,
 .close:after {

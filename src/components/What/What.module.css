@@ -16,3 +16,26 @@
   align-items: center;
   padding-bottom: 2rem;
 }
+
+.insideContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.slideTitle {
+  background-color: #0693ba;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  max-height: 3rem;
+  min-width: 15rem;
+  font-size: 1rem;
+  color: black;
+}
